@@ -72,14 +72,14 @@ a, h1, h2, h3, h4{
 
 #slogen{
     position: relative;
-    top: 50%;
+    top: 40%;
     text-align: center;
-    letter-spacing: 0.5em;
 }
 
 #header h1{
     font-size: 72px;
     font-weight: 200;
+    letter-spacing: 0.1em;
 }
 
 #header hr{
@@ -88,52 +88,37 @@ a, h1, h2, h3, h4{
     background-color: white;
 }
 
-#location, #kicker{
+#location{
     font-weight: 400;
     margin: 0 0 40px 0;
     line-height: 1;
+    letter-spacing: 0.2em;
 }
 
 #kicker{
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 14px;
 }
 
 /* HEADER MOBILE */
 
 @media screen and (max-width: 743.5px){
     #slogen{
-        top: 40%;
+        top: 30%;
     }
 }
 
 @media screen and (max-width: 650px){
 
-    #slogen{
-        top: 50%;
-    }
-
     #header h1{
         font-size: 45px;
-    }
-
-    .kicker{
-        letter-spacing: 4px;
     }
 }
 
 @media screen and (max-width: 530px){
     #header h1{
         font-size: 30px;
-    }
-
-    .kicker{
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 335px){
-    .kicker{
-        display: none;
     }
 }
 
