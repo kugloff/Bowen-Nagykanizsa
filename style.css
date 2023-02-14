@@ -489,6 +489,38 @@ a, h1, h2, h3, h4{
     text-align: center;
 }
 
+@media screen and (max-width:930px){
+    #services{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:630px){
+    #services{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:430px){
+    #services{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:330px){
+    #prices h3:nth-child(1){
+        font-size: 20px;
+    }
+
+    #prices h3:nth-child(3){
+        font-size: 15px;
+    }
+    
+    #services{
+        width: 250px;
+    }
+}
+
 /* FOOTER */
 
 .footer{
