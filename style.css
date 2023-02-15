@@ -55,7 +55,9 @@ a, h1, h2, h3, h4{
 
 #header #logo{
     float: left;
-    margin: -5px 10px 0 20px;
+    margin: -10px 0px 0 20px;
+    height: 40px;
+    width: 40px;
 }
 
 #header nav a{
@@ -136,7 +138,6 @@ a, h1, h2, h3, h4{
 
 #about_me{
     background-color: rgba(0, 0, 0, 0.1);
-    max-width: 100%;
 }
 
 #about_contain{
@@ -198,8 +199,9 @@ a, h1, h2, h3, h4{
 }
 
 #about_img_mobile{
-    height: 200px;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -217,6 +219,7 @@ a, h1, h2, h3, h4{
 #about_me_mobile p{
     font-weight: 400;
     margin-top: 40px;
+    color: rgb(194, 114, 150);
 }
 
 @media screen and (max-width: 750px){
@@ -359,7 +362,7 @@ a, h1, h2, h3, h4{
     letter-spacing: 0.08em;
     color: rgb(194, 114, 150);
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
@@ -515,7 +518,7 @@ a, h1, h2, h3, h4{
     #prices h3:nth-child(3){
         font-size: 15px;
     }
-    
+
     #services{
         width: 250px;
     }
@@ -524,10 +527,10 @@ a, h1, h2, h3, h4{
 /* FOOTER */
 
 .footer{
-    background-image: url(img/favicon.png), linear-gradient(to bottom, rgba(198, 87, 170, 0.5), rgba(198, 87, 170, 0.5)), url(img/footer.AVIF);
+    background-image: url(img/lily_logo.png), linear-gradient(to bottom, rgba(198, 87, 170, 0.5), rgba(198, 87, 170, 0.5)), url(img/footer.AVIF);
     background-repeat: no-repeat;
-    background-size: 32px 32px, cover, cover;
-    background-position: 40px 35px, 50% 50%, 50% 50%;
+    background-size: 50px 50px, cover, cover;
+    background-position: 30px 25px, 50% 50%, 50% 50%;
     height: 80px;
     padding-top: 25px;
     box-shadow: rgba(198, 87, 170, 0.8) 2px 0px 30px;
@@ -596,7 +599,8 @@ a, h1, h2, h3, h4{
 
 @media screen and (max-width: 500px){
     #footer_mobile{
-        background-position: 50% 25px, 50% 50%, 50% 50%;
+        background-position: 50% 15px, 50% 50%, 50% 50%;
+        background-size: 45px 45px, cover, cover;
         padding: 10px;
     }
     
