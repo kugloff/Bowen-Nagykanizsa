@@ -165,11 +165,11 @@ a, h1, h2, h3, h4{
 #name{
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     margin-top: 10px;
     margin-right: 60px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #about_title{
@@ -268,12 +268,14 @@ a, h1, h2, h3, h4{
 
     .description .float_left{
         height: 300px;
+        width: auto;
         float: left;
         opacity: 0.9;
     }
 
     .description .float_right{
         height: 300px;
+        width: auto;
         float:right;
         opacity: 0.9;
     }
@@ -404,6 +406,7 @@ a, h1, h2, h3, h4{
 
 .quotation{
     height: 20px;
+    width: auto;
     float: left;
     opacity: 0.3;
     position: relative;
@@ -413,6 +416,7 @@ a, h1, h2, h3, h4{
 
 .quotation2{
     height: 20px;
+    width: auto;
     float: right;
     rotate: 180deg;
     opacity: 0.3;
