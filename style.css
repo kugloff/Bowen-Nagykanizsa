@@ -13,6 +13,16 @@ a, h1, h2, h3, h4{
     padding: 0;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+} 
+::-webkit-scrollbar-thumb{
+    background: rgba(198,87,170,0.5);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(198, 87, 170, 0.8);
+}
+
 /* HEADER */
 
 #header{
@@ -532,7 +542,7 @@ a, h1, h2, h3, h4{
 #contact{
     background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 50px 0;
+    padding: 80px 0 50px 0;
     color: rgba(198, 87, 170, 0.7);
 }
 
@@ -654,7 +664,7 @@ a, h1, h2, h3, h4{
     display: inline-block;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     color:white;
     margin-right: 10px;
 }
@@ -666,7 +676,7 @@ a, h1, h2, h3, h4{
 .footer p{
     color: rgba(255, 255, 255, 0.8);
     font-weight: 200;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer nav, .footer p{
