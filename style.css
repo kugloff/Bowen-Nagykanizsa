@@ -104,13 +104,13 @@ a, h1, h2, h3, h4{
     font-weight: 400;
     margin: 0 0 40px 0;
     letter-spacing: 0.2em;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #kicker{
     font-weight: 400;
     letter-spacing: 0.1em;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* HEADER MOBILE */
@@ -179,14 +179,18 @@ a, h1, h2, h3, h4{
     margin-top: 10px;
     margin-right: 60px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+#about_me p{
+    font-size: 20px;
 }
 
 #about_title{
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 /*ABOUT MOBILE*/
@@ -230,6 +234,7 @@ a, h1, h2, h3, h4{
     font-weight: 400;
     margin-top: 40px;
     color: rgb(194, 114, 150);
+    font-size: 20px;
 }
 
 @media screen and (max-width: 750px){
@@ -243,82 +248,82 @@ a, h1, h2, h3, h4{
 }
 
 /* BOWEN */
-    #bowen{
-        width: 100%;
-        background-image: linear-gradient(to bottom, rgba(198, 87, 170, 0.5), rgba(198, 87, 170, 0.5)),url(img/footer.AVIF);
-        background-repeat: no-repeat;
-        background-size: cover, cover;
-        box-shadow: rgba(198, 87, 170, 0.8) 2px 2px 30px;
-        padding: 50px 0 50px 0;
-    }
+#bowen{
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(198, 87, 170, 0.5), rgba(198, 87, 170, 0.5)),url(img/footer.AVIF);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    box-shadow: rgba(198, 87, 170, 0.8) 2px 2px 30px;
+    padding: 50px 0 50px 0;
+}
 
-    #bowen h3{
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: 3px;
-        font-size: 25px;
-    }
+#bowen h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
 
-    #bowen hr{
-        width: 50%;
-        color: white;
-        background-color: white;
-        margin-bottom: 40px;
-    }
+#bowen hr{
+    width: 50%;
+    color: white;
+    background-color: white;
+    margin-bottom: 40px;
+}
 
-    .description{
-        margin: auto;
-        width: 700px;
-        height: 300px;
-        margin-bottom: 30px;
-        background-color: rgba(255, 255, 255, 0.8);
-    }
+.description{
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
-    .description .float_left{
-        height: 300px;
-        width: auto;
-        float: left;
-        opacity: 0.9;
-    }
+.description .float_left{
+    height: 300px;
+    width: auto;
+    float: left;
+    opacity: 0.9;
+}
 
-    .description .float_right{
-        height: 300px;
-        width: auto;
-        float:right;
-        opacity: 0.9;
-    }
+.description .float_right{
+    height: 300px;
+    width: auto;
+    float:right;
+    opacity: 0.9;
+}
 
-    .text_left{
-        width: 660px;
-    }
+.text_left{
+    width: 660px;
+}
 
-    .text_right{
-        width: 360px;
-    }
+.text_right{
+    width: 360px;
+}
 
-    .description h4{
-        color: rgb(194, 114, 150);
-        font-weight: 700;
-        text-transform: uppercase;
-        position: relative;
-        font-size: 25px;
-        top: 10px;
-        left: 20px;
-        margin: 0;
-        letter-spacing: 4px;
-    }
+.description h3{
+    color: rgb(194, 114, 150);
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 24px;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+    letter-spacing: 4px;
+}
 
-    .description p{
-        color: rgb(194, 114, 150);
-        margin: 0;
-        position: relative;
-        top: 20px;
-        left: 20px;
-        font-weight: 400;
-        text-align: justify;
-    }
+.description p{
+    color: rgb(194, 114, 150);
+    margin: 0;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
 
 /*BOWEN MOBILE*/
 
@@ -344,7 +349,7 @@ a, h1, h2, h3, h4{
         width: 100%;
     }
 
-    .description h4{
+    .description h3{
         font-size: 26px;
     }
 
@@ -364,18 +369,18 @@ a, h1, h2, h3, h4{
     text-align: center;
 }
 
-#testimonials h4, #testimonials h3, #testimonials p{
+#testimonials h3, #testimonials h2, #testimonials p{
     margin: 0;
     padding: 0;
 }
 
-#testimonials h3{
+#testimonials h2{
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: rgb(194, 114, 150);
     font-weight: 700;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 #testimonials hr{
@@ -400,11 +405,11 @@ a, h1, h2, h3, h4{
     align-self: center;
 }
 
-#testimonials h4{
+#testimonials h3{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
@@ -451,22 +456,22 @@ a, h1, h2, h3, h4{
     box-shadow: rgba(198, 87, 170, 0.8) 2px 2px 30px;
 }
 
-#prices h3:nth-child(1){
+#prices h2{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: white;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 28px;
 }
 
-#prices h3:nth-child(3){
+#prices h3{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: white;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #prices hr{
@@ -484,7 +489,7 @@ a, h1, h2, h3, h4{
 #services td{
     height: 30px;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #services tr:nth-child(odd){
@@ -525,11 +530,11 @@ a, h1, h2, h3, h4{
 }
 
 @media screen and (max-width:330px){
-    #prices h3:nth-child(1){
+    #prices h2{
         font-size: 20px;
     }
 
-    #prices h3:nth-child(3){
+    #prices h3{
         font-size: 15px;
     }
 
@@ -550,7 +555,7 @@ a, h1, h2, h3, h4{
     margin: auto;
 }
 
-#contact h3, #contact h5, #contact p{
+#contact h2, #contact h3, #contact p{
     margin: 0;
     padding: 0;
 }
@@ -563,13 +568,13 @@ a, h1, h2, h3, h4{
 
 }
 
-#get_in_touch h3{
+#get_in_touch h2{
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: rgb(194, 114, 150);
     font-weight: 700;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 #contact_card{
@@ -581,10 +586,10 @@ a, h1, h2, h3, h4{
     right: 10px;
 }
 
-#contact_card h4{
+#contact_card h3{
     font-weight: 400;
     letter-spacing: 0.08em;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -618,10 +623,6 @@ a, h1, h2, h3, h4{
         width: 250px;
         padding: 45px;
     }
-
-    #contact_card h4{
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width:520px){
@@ -635,7 +636,7 @@ a, h1, h2, h3, h4{
         padding: 30px;
     }
 
-    #contact_card h4{
+    #contact_card h3{
         font-size: 16px;
     }
 }
