@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+hr{
+    margin: auto;
+}
 
 :root{
-    --main-bg-cover: rgba(198, 87, 170, 0.5);
-    --box-shadow-color: rgba(198, 87, 170, 0.8);
-    --invert-bg: rgba(0, 0, 0, 0.1);
+    --main-bg-cover: rgba(198, 87, 170, 0.3);
+    --box-shadow-color: rgba(198, 87, 170, 0.5);
+    --invert-bg: rgba(0, 0, 0, 0.05);
     --text-color: rgb(194, 114, 150);
     --hover: rgba(255, 255, 255, 0.8);
 }
 
 html, body{
     font-family:'Montserrat', sans-serif;
-    margin:0;
-    padding: 0;
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 a, h1, h2, h3, h4{
@@ -34,7 +47,7 @@ a, h1, h2, h3, h4{
 /* HEADER */
 
 #header{
-    background: linear-gradient(180deg, rgba(198,87,170,0.5) 0%, rgba(198,87,170,0.2) 50%, rgba(198,87,170,0.1) 100%);
+    background: linear-gradient(180deg, rgba(198,87,170,0.3) 0%, rgba(198,87,170,0.1) 100%);
     background-size:cover;
     height: 100vh;
     max-width: 100%;
@@ -46,7 +59,7 @@ a, h1, h2, h3, h4{
 #dark{
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -65,22 +78,23 @@ a, h1, h2, h3, h4{
 
 #header nav{
     float: left;
-    margin: 25px 30px 0 0px;
+    margin: 25px 0 0 0;
     width: 100%;
+    height: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 #header #logo{
     float: left;
-    margin: -10px 0px 0 20px;
-    height: 40px;
-    width: 40px;
+    margin: -10px 0 0 50px;
+    height: 50px;
 }
 
 #header nav a{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
     font-weight: 700;
     font-size: 16px;
     color: white;
@@ -156,12 +170,13 @@ a, h1, h2, h3, h4{
 
 #about_me{
     background-color: var(--invert-bg);
+    padding: 50px 0;
 }
 
 #about_contain{
     max-width: 900px;
     margin: auto;
-    padding: 50px 50px;
+    padding: 0 50px;
 }
 
 #about_me table{
@@ -197,8 +212,19 @@ a, h1, h2, h3, h4{
 #about_title{
     text-transform: uppercase;
     letter-spacing: 0.08em;
+    color: var(--text-color);
     font-weight: 700;
+    text-align: center;
     font-size: 28px;
+}
+
+#about_me hr, #about_me_mobile hr{
+    width: 40%;
+    height: 2px;
+    margin: 10px auto 20px auto;
+    color: var(--main-bg-cover);
+    background-color: var(--main-bg-cover);
+    border: 0;
 }
 
 /*ABOUT MOBILE*/
@@ -217,7 +243,8 @@ a, h1, h2, h3, h4{
     letter-spacing: 0.08em;
     color: var(--text-color);
     font-weight: 700;
-    margin-bottom: 40px;
+    text-align: center;
+    font-size: 28px;
 }
 
 #about_img_mobile{
@@ -256,13 +283,40 @@ a, h1, h2, h3, h4{
 }
 
 /* BOWEN */
+
 #bowen{
-    width: 100%;
     background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)),url(img/footer.AVIF);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover, cover;
     box-shadow: var(--box-shadow-color) 2px 2px 30px;
     padding: 50px 0 50px 0;
+}
+
+#bowen_contain{
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 50px;
+}
+
+#bowen table{
+    padding: 10px;
+    max-width: 900px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: var(--text-color);
+    margin: auto;
+}
+
+#bowen table tr td{
+    border: 20px solid rgba(255, 255, 255, 0);
+    
+}
+
+#bowen img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #bowen h2{
@@ -274,6 +328,11 @@ a, h1, h2, h3, h4{
     font-size: 28px;
 }
 
+#bowen h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
 #bowen hr{
     width: 50%;
     color: white;
@@ -281,57 +340,10 @@ a, h1, h2, h3, h4{
     margin-bottom: 40px;
 }
 
-.description{
-    margin: auto;
-    width: 700px;
-    height: 300px;
-    margin-bottom: 30px;
-    background-color: var(--hover);
+#bowenList{
+    list-style: default;
 }
 
-.description .float_left{
-    height: 300px;
-    width: auto;
-    float: left;
-    opacity: 0.9;
-}
-
-.description .float_right{
-    height: 300px;
-    width: auto;
-    float:right;
-    opacity: 0.9;
-}
-
-.text_left{
-    width: 660px;
-}
-
-.text_right{
-    width: 360px;
-}
-
-.description h3{
-    color: var(--text-color);
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 24px;
-    top: 10px;
-    left: 20px;
-    margin: 0;
-    letter-spacing: 4px;
-}
-
-.description p{
-    color: var(--text-color);
-    margin: 0;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    font-weight: 400;
-    text-align: justify;
-}
 
 /*BOWEN MOBILE*/
 
@@ -341,29 +353,8 @@ a, h1, h2, h3, h4{
         height: 600px;
     }
 
-    .description .float_left{
-        float: none;
-        display: block;
-        margin: auto;
-        height: normal;
-        width: 100%;
-    }
-
-    .description .float_right{
-        float: none;
-        display: block;
-        margin: auto;
-        height: normal;
-        width: 100%;
-    }
-
     .description h3{
         font-size: 26px;
-    }
-
-    .text_left, .text_right{
-        width: 265px;
-        font-size: 16px;
     }
 }
 
@@ -402,6 +393,7 @@ a, h1, h2, h3, h4{
 
 #testimonials .clients{
     background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footer.AVIF);
+    background-size: cover;
     display: inline-block;
     width: 300px;
     height: 250px;
@@ -461,6 +453,8 @@ a, h1, h2, h3, h4{
     width: 100%;
     padding: 50px 0;
     background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footer.AVIF);
+    background-size: cover;
+    background-attachment: fixed;
     box-shadow: var(--box-shadow-color) 2px 2px 30px;
 }
 
@@ -516,7 +510,8 @@ a, h1, h2, h3, h4{
 }
 
 #services tr td:nth-child(even){
-    text-align: center;
+    text-align: right;
+    padding-right: 10px;
 }
 
 @media screen and (max-width:930px){
@@ -588,6 +583,7 @@ a, h1, h2, h3, h4{
 #contact_card{
     color: white;
     background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footer.AVIF);
+    background-size: cover;
     padding: 25px;
     position: relative;
     top: -20px;
@@ -621,7 +617,7 @@ a, h1, h2, h3, h4{
     #get_in_touch{
         display: block;
         width: 250px;
-        padding: 45px;
+        padding: 20px;
     }
 
     #contact_card{
@@ -629,7 +625,8 @@ a, h1, h2, h3, h4{
         top: 0;
         left: 0;
         width: 250px;
-        padding: 45px;
+        padding: 20px;
+        font-size: 13px;
     }
 }
 
@@ -651,12 +648,10 @@ a, h1, h2, h3, h4{
 /* FOOTER */
 
 .footer{
-    background-image: url(img/lily_logo.png), linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footer.AVIF);
-    background-repeat: no-repeat;
-    background-size: 50px 50px, cover, cover;
-    background-position: 30px 25px, 50% 50%, 50% 50%;
-    height: 80px;
-    padding-top: 25px;
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footer.AVIF);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
     box-shadow: var(--box-shadow-color) 2px 0px 30px;
     max-width: 100%;
 }
@@ -709,14 +704,10 @@ a, h1, h2, h3, h4{
         padding-top: 15px;
     }
 
-    #footer_mobile nav a{
-        display: block;
-        padding: 2px;
-    }
-
     #footer_mobile p{
-        float: right;
-        margin: 35px 30px 0px 0px;
+        text-align: center;
+        margin: 0;
+
     }
 }
 
@@ -725,16 +716,9 @@ a, h1, h2, h3, h4{
         background-position: 50% 15px, 50% 50%, 50% 50%;
         background-size: 45px 45px, cover, cover;
         padding: 10px;
+        height: 50px;
     }
-    
-    #footer_mobile nav{
-        display: none;
-    }
-
-    #footer_mobile p{
-        text-align: center;
-        float: none;
-        margin: 0;
-        margin-top: 55px;
+    .footer{
+        height: 10px;
     }
 }
