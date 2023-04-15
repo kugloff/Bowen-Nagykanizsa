@@ -306,7 +306,6 @@ a, h1, h2, h3, h4{
 
 #bowen table tr td{
     border: 20px solid rgba(255, 255, 255, 0);
-    
 }
 
 #bowen img{
@@ -344,6 +343,14 @@ a, h1, h2, h3, h4{
 /*BOWEN MOBILE*/
 
 @media screen and (max-width:520px){
+    #bowen table{
+        padding: 20px 10px;
+    }
+
+    #bowen table tr td{
+        border: 5px solid rgba(255, 255, 255, 0);
+    }
+
     #bowen img{
         display: none;
     }
