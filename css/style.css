@@ -283,7 +283,7 @@ a, h1, h2, h3, h4{
 /* BOWEN */
 
 #bowen{
-    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)),url(img/footerBg.jpg);
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)),url(footerBg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover, cover;
@@ -393,7 +393,7 @@ a, h1, h2, h3, h4{
 }
 
 #testimonials .clients{
-    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footerBg.jpg);
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(footerBg.jpg);
     background-size: cover;
     display: inline-block;
     width: 300px;
@@ -453,7 +453,7 @@ a, h1, h2, h3, h4{
 #prices{
     width: 100%;
     padding: 50px 0;
-    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footerBg.jpg);
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(footerBg.jpg);
     background-size: cover;
     background-attachment: fixed;
     box-shadow: var(--box-shadow-color) 2px 2px 30px;
@@ -574,7 +574,7 @@ a, h1, h2, h3, h4{
 
 #contact_card{
     color: white;
-    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footerBg.jpg);
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(footerBg.jpg);
     background-size: cover;
     padding: 25px;
     position: relative;
@@ -647,7 +647,7 @@ a, h1, h2, h3, h4{
 /* FOOTER */
 
 .footer{
-    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(img/footerBg.jpg);
+    background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(footerBg.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 10px;
