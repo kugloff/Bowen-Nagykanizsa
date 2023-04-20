@@ -17,12 +17,13 @@
     <title>Nagykanizsa Bowen</title>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="shortcut icon" href="img/bowenLogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <!--HEADER-->
     <header id="header">
-      <div id="dark"></div>
-      <img src="img/hero.jpg" alt="Hero image of bowen teraphy" id="hero_img" />
+      <div class="dark"></div>
+      <img src="img/hero.jpg" alt="Hero image of bowen teraphy" class="hero_img" />
       <nav>
         <img src="img/bowenSign.png" alt="logo" id="logo"/>
         <a href="#about_me">Rólam</a>
@@ -31,10 +32,32 @@
         <a href="#prices">Kezelések</a>
         <a href="#contact">Kapcsolat</a>
       </nav>
-      <section id="slogen">
+      <section class="slogen">
         <h1>NAGYKANIZSA-<strong>BOWEN</strong></h1>
         <hr />
-        <p id="kicker">Reichardt Angelika</p>
+        <p class="kicker">Reichardt Angelika</p>
+      </section>
+    </header>
+
+    <!--HEADER NAVIGATION MENU (mobile)-->
+    <header id="headerMobile">
+      <div class="dark"></div>
+      <img src="img/hero.jpg" alt="Hero image of bowen teraphy" class="hero_img" />
+      <nav>
+        <img src="img/bowenSign.png" alt="logo" id="logoMobile"/>
+        <i id="hamburgerBtn" class="fa fa-bars"></i>
+        <aside id="hamburgerMenu" class="hidden">
+          <a href="#about_me_mobile">Rólam</a>
+          <a href="#bowen">A Bowen technikáról</a>
+          <a href="#testimonials">Vélemények</a>
+          <a href="#prices">Kezelések</a>
+          <a href="#contact">Kapcsolat</a>
+        </aside>
+      </nav>
+      <section class="slogen">
+        <h1>NAGYKANIZSA-<strong>BOWEN</strong></h1>
+        <hr/>
+        <p class="kicker">Reichardt Angelika</p>
       </section>
     </header>
 
@@ -262,5 +285,6 @@
     <footer id="footer_mobile" class="footer">
       <p class="copyright">&copy; 2023 Varga Zsófia | Minden jog fenntartva</p>
     </footer>
+  <script src="js/app.js"></script>
   </body>
 </html>
