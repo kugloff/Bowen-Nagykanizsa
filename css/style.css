@@ -475,13 +475,8 @@ a, h1, h2, h3, h4{
     background-size: cover;
     display: inline-block;
     width: 300px;
-    height: 250px;
-    margin: 30px 5px 10px 5px;
-    padding: 50px 25px 25px 25px;
-}
-
-.clients_contain{
-    align-self: center;
+    margin: 30px 10px 10px 10px;
+    padding: 50px 20px 20px 25px;
 }
 
 #testimonials h3{
