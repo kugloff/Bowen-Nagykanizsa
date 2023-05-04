@@ -444,7 +444,7 @@ a, h1, h2, h3, h4{
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    background: #000;
+    background: var(--invert-bg);
     margin: 5px;
 }
 
@@ -475,10 +475,6 @@ a, h1, h2, h3, h4{
     -webkit-transition: 0.4s all;
     -moz-transition: 0.4s all;
     transition: 0.4s all;
-}
-
-.youtube-player img:hover {
-    -webkit-filter: brightness(75%);
 }
 
 .youtube-player .play {
