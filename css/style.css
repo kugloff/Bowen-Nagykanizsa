@@ -308,7 +308,7 @@ a, h1, h2, h3, h4{
 #about_me_mobile{
     background-color: var(--invert-bg);
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     display: none;
     max-width: 100%;
     text-align: center;
@@ -345,7 +345,7 @@ a, h1, h2, h3, h4{
     font-weight: 400;
     margin-top: 40px;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -430,11 +430,16 @@ a, h1, h2, h3, h4{
 
 @media screen and (max-width:520px){
     #bowen table{
-        padding: 20px 10px;
+        padding: 0 5px 30px 5px;
     }
 
     #bowen table tr td{
         border: 5px solid rgba(255, 255, 255, 0);
+    }
+
+    #bowen h3{
+        margin-top: 20px;
+        text-align: center;
     }
 
     #bowen img{
@@ -586,29 +591,30 @@ a, h1, h2, h3, h4{
 
 @media screen and (max-width:930px){
     #services{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #services{
         width: 600px;
     }
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:600px){
     #services{
         width: 400px;
     }
-}
 
-@media screen and (max-width:430px){
-    #services{
-        width: 350px;
+    #services td{
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
+
     #prices h2{
         font-size: 20px;
-    }
-
-    #prices h3{
-        font-size: 15px;
     }
 
     #services{
