@@ -31,6 +31,10 @@ a, h1, h2, h3, h4{
     padding: 0;
 }
 
+body a, body a:hover, body a:active, body a:visited{
+    text-decoration: none;
+}
+
 ::-webkit-scrollbar{
     width: 10px;
 } 
