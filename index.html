@@ -25,7 +25,7 @@
     <!--HEADER-->
     <header id="header">
       <div class="dark"></div>
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
+      <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/hero.webp" class="d-block w-100 hero_img" alt="Hero image of bowen teraphy">
@@ -214,49 +214,73 @@
     <section id="testimonials">
       <h2>Vélemények</h2>
       <hr>
-      <section>
-        <section class="clients">
-          <section class="clientsContain">
-            <header>
-              <h3>Női kliens (61)</h3>
-              <br>
-            </header>
-            <footer>
-              <img src="img/mark.png" alt="Quotation mark" class="quotation">
-              <p>
-                Hat alkalommal vettem részt Bowen technikával végzett kezelésen. Kezdetben a kíváncsiság vezetett, majd a jó tapasztalatok miatt folytattam. Elmúlt a szédülés, javult a vérkeringés. Ízületi problémák miatt a csípőm környékén érzett fájdalom megszűnt, a lábaimat könnyedebbnek érzem. A kezelések következtében a méregtelenítés folyamata hatékonyabb lett. A kezelések hatákonyságát a személyes kapcsolat, a tájékoztatás, a nyugodt, feszültségmentes légkör is pozitívan erősítette.
-              </p>
-              <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
-            </footer>
-          </section>
-        </section>
-        <section class="clients">
-          <section class="clientsContain">
-            <header>
-              <h3></h3>
-            </header>
-            <footer>
-              <img src="img/mark.png" alt="Quotation mark" class="quotation">
-              <p>
-              </p>
-              <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
-            </footer>
-          </section>
-        </section>
-        <section class="clients">
-          <section class="clientsContain">
-            <header>
-              <h3></h3>
-            </header>
-            <footer>
-              <img src="img/mark.png" alt="Quotation mark" class="quotation">
-              <p>
-              </p>
-              <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
-            </footer>
-          </section>
-        </section>
-      </section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="css/footerBg.webp" style="visibility:hidden" class="d-block w-100" alt="...">
+            <section class="clients carousel-caption">
+              <section class="clientsContain">
+                <header>
+                  <h3>Női kliens (61)</h3>
+                  <br>
+                </header>
+                <footer>
+                  <img src="img/mark.png" alt="Quotation mark" class="quotation">
+                  <p>
+                    Hat alkalommal vettem részt Bowen technikával végzett kezelésen. Kezdetben a kíváncsiság vezetett, majd a jó tapasztalatok miatt folytattam. Elmúlt a szédülés, javult a vérkeringés. Ízületi problémák miatt a csípőm környékén érzett fájdalom megszűnt, a lábaimat könnyedebbnek érzem. A kezelések következtében a méregtelenítés folyamata hatékonyabb lett. A kezelések hatákonyságát a személyes kapcsolat, a tájékoztatás, a nyugodt, feszültségmentes légkör is pozitívan erősítette.
+                  </p>
+                  <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
+                </footer>
+              </section>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <img src="css/footerBg.webp" style="visibility:hidden" class="d-block w-100" alt="...">
+            <section class="clients carousel-caption">
+              <section class="clientsContain">
+                <header>
+                  <h3></h3>
+                </header>
+                <footer>
+                  <img src="img/mark.png" alt="Quotation mark" class="quotation">
+                  <p>
+                  </p>
+                  <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
+                </footer>
+              </section>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <img src="css/footerBg.webp" style="visibility:hidden" class="d-block w-100" alt="...">
+            <section class="clients carousel-caption">
+              <section class="clientsContain">
+                <header>
+                  <h3></h3>
+                </header>
+                <footer>
+                  <img src="img/mark.png" alt="Quotation mark" class="quotation">
+                  <p>
+                  </p>
+                  <img src="img/mark.png" alt="Second quotation mark" class="quotation2">
+                </footer>
+              </section>
+            </section>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <i class="fa fa-arrow-left" style="color: rgba(198, 87, 170, 0.8);" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <i class="fa fa-arrow-right" style="color: rgba(198, 87, 170, 0.8);" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <!--PRICES-->
