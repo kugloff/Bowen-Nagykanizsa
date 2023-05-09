@@ -567,6 +567,7 @@ body a, body a:hover, body a:active, body a:visited{
 
 #testimonials .carousel-item{
     height: 400px;
+    width: 100%;
 }
 
 #testimonials h3{
@@ -604,7 +605,10 @@ body a, body a:hover, body a:active, body a:visited{
 
 @media screen and (max-width:700px){
     #testimonials .clients{
-        width: 300px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 70%;
         height: 550px;
     }
 
@@ -615,12 +619,19 @@ body a, body a:hover, body a:active, body a:visited{
 
 @media screen and (max-width:430px){
     #testimonials .clients{
-        width: 250px;
-        height: 700px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 90%;
+        height: 500px;
+    }
+
+    #testimonials .carousel-control-prev, #testimonials .carousel-control-next{
+        display: none;
     }
 
     #testimonials .carousel-item{
-        height: 750px;
+        height: 550px;
     }
 }
 
