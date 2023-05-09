@@ -406,6 +406,7 @@ body a, body a:hover, body a:active, body a:visited{
     color: var(--text-color);
     margin: auto;
     text-align: justify;
+    margin-bottom: 40px;
 }
 
 #bowen table tr td{
@@ -562,7 +563,7 @@ body a, body a:hover, body a:active, body a:visited{
     width: 500px;
     padding: 30px 20px 40px 20px;
     margin: auto;
-    border-radius: 1%;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
