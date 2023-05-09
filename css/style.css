@@ -517,6 +517,10 @@ body a, body a:hover, body a:active, body a:visited{
         text-align: center;
     }
 
+    #bowen span{
+        text-align: left;
+    }
+
     #bowen img{
         display: none;
     }
