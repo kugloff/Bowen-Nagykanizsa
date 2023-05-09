@@ -563,6 +563,9 @@ body a, body a:hover, body a:active, body a:visited{
     padding: 30px 20px 40px 20px;
     margin: auto;
     border-radius: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #testimonials .carousel-item{
@@ -575,6 +578,7 @@ body a, body a:hover, body a:active, body a:visited{
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .clients p{
@@ -766,7 +770,7 @@ body a, body a:hover, body a:active, body a:visited{
     background-image: linear-gradient(to bottom, var(--main-bg-cover), var(--main-bg-cover)), url(footerBg.webp);
     background-size: cover;
     width: 300px;
-    padding: 20px;
+    padding: 20px 10px;
     position: relative;
     right: 10px;
 }
@@ -791,12 +795,12 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 #contact_card hr{
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 #contact_card p{
     font-size: 15px;
-    margin: 10px 0;
+    margin: 5px 0;
     letter-spacing: 0.1em;
 }
 
