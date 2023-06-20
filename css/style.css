@@ -248,6 +248,7 @@ body a, body a:hover, body a:active, body a:visited{
     margin: auto;
     max-width: 100%;
     text-align: center;
+    padding-top: 25px;
 }
 
 #aboutMeContainer{
