@@ -740,27 +740,21 @@ body a, body a:hover, body a:active, body a:visited{
     background: linear-gradient(0deg, var(--hover-color) 0%, var(--text-color) 100%);
     box-shadow: var(--box-shadow-color) 2px 0px 30px;
     max-width: 100%;
-    padding: 10px 0;
+    height: 50px;
+    padding: 15px 0;
+    text-align: center;
 }
 
-.footer nav{
-    display: inline-block;
-    text-transform: uppercase;
-    color: white;
-}
-
-.footer nav a{
-    display: inline-block;
-    font-weight: 500;
+.footer a{
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 12px;
     color:white;
-    margin-right: 10px;
-    margin-top: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.footer nav a:hover{
+.footer a:hover{
     color: var(--hover);
 }
 
@@ -768,40 +762,4 @@ body a, body a:hover, body a:active, body a:visited{
     color: var(--hover);
     font-weight: 200;
     font-size: 14px;
-}
-
-.footer nav, .footer p{
-    margin-left: 100px;
-}
-
-/*FOOTER MOBILE*/
-
-#footer_mobile{
-    display: none;
-    padding: 20px 0;
-}
-
-@media screen and (max-width: 750px){
-    #footer{
-        display: none;
-    }
-
-    #footer_mobile{
-        display: block;
-        padding-top: 15px;
-    }
-
-    #footer_mobile p{
-        text-align: center;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 500px){
-    #footer_mobile{
-        height: 40px;
-    }
-    .footer{
-        height: 10px;
-    }
 }
