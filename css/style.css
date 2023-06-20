@@ -111,6 +111,7 @@ body a, body a:hover, body a:active, body a:visited{
     font-size: 14px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #header nav a:hover{
@@ -199,6 +200,7 @@ body a, body a:hover, body a:active, body a:visited{
     color: white;
     padding: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #hamburgerMenu a:hover{
