@@ -246,7 +246,6 @@ body a, body a:hover, body a:active, body a:visited{
 #aboutMe{
     background-color: var(--invert-bg);
     margin: auto;
-    padding: 20px;
     max-width: 100%;
     text-align: center;
 }
@@ -254,6 +253,7 @@ body a, body a:hover, body a:active, body a:visited{
 #aboutMeContainer{
     max-width: 600px;
     margin: auto;
+    padding: 20px;
 }
 
 #aboutTitle{
@@ -388,6 +388,10 @@ body a, body a:hover, body a:active, body a:visited{
 /*BOWEN MOBILE*/
 
 @media screen and (max-width:750px){
+
+    #bowenContain{
+        margin: 0;
+    }
 
     #bowenContain table tr td{
         border: 5px solid rgba(255, 255, 255, 0);
