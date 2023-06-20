@@ -327,6 +327,7 @@ body a, body a:hover, body a:active, body a:visited{
     padding: 20px;
     text-align: justify;
     overflow: hidden;
+    font-weight: 200;
 }
   
 .bowenImg{
@@ -392,7 +393,7 @@ body a, body a:hover, body a:active, body a:visited{
         height: 600px;
     }
     .bowenContainer2{
-        height: 650px;
+        height: 750px;
     }
 
     .bowenDescContainer{
@@ -416,6 +417,24 @@ body a, body a:hover, body a:active, body a:visited{
     }
     .bowenImgContainer2{
         display:none;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .bowenContainer{
+        height: 750px;
+    }
+    .bowenContainer2{
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .bowenContainer{
+        height: 800px;
+    }
+    .bowenContainer2{
+        height: 950px;
     }
 }
 
