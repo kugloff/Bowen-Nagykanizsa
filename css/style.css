@@ -763,3 +763,9 @@ body a, body a:hover, body a:active, body a:visited{
     font-weight: 200;
     font-size: 14px;
 }
+
+@media screen and (max-width: 350px){
+    .footer p{
+        font-size: 10px;
+    }
+}
