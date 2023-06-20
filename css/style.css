@@ -248,7 +248,7 @@ body a, body a:hover, body a:active, body a:visited{
     margin: auto;
     max-width: 100%;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 #aboutMeContainer{
@@ -293,46 +293,127 @@ body a, body a:hover, body a:active, body a:visited{
     text-align: justify;
 }
 
-@media screen and (max-width:520px){
+@media screen and (max-width:600px){
     #aboutMe img{
         width: 150px;
     }
+
+    #aboutMe hr{
+        width: 70%;
+    }
 }
 
-#bowenContain{
-    margin: 50px 0;
+/* BOWEN */
+.bowenContainer{
+    color: var(--text-color);
+    width: 100vw;
+    display: flex;
+    background-color: var(--invert-bg);
+    overflow: hidden;
 }
-
-#bowenContain table{
-    max-width: 800px;
-    font-weight: 200;
-    background: linear-gradient(0deg, var(--text-color) 0%, var(--hover-color) 100%);
-    color: white;
-    margin: auto;
-    text-align: justify;
-    margin-bottom: 20px;
+  
+.bowenImgContainer{
+    width: 30%;
+    box-sizing: border-box;
 }
-
-#bowenContain table tr td{
-    border: 20px solid rgba(255, 255, 255, 0);
+  
+.bowenDescContainer{
+    width: 70%;
+    box-sizing: border-box;
     padding: 20px;
+    text-align: justify;
+    overflow: hidden;
+}
+  
+.bowenImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, transparent 100%);
+    mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, transparent 100%);
+}
+  
+.bowenContainer2{
+    color: var(--text-color);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: var(--invert-bg);
 }
 
-#bowenContain img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid white;
+.bowenImgContainer2{
+    width: 30%;
+    float: right;
+    height: 500px;
 }
 
-#bowenContain h3{
-    margin-bottom: 10px;
-    font-size: 25px;
-    text-transform: uppercase;
+.bowenDescContainer2{
+    width: 70%;
+    float: right;
+    height: 500px;
+    padding: 20px;
+    text-align: left;
 }
 
 #bowenList{
     list-style: default;
+}
+
+@media screen and (max-width: 600px){
+    .bowenContainer{
+        height: 400px;
+    }
+    .bowenContainer2{
+        height: 500px;
+    }
+    .bowenDescContainer span, .bowenDescContainer{
+        font-size: 10px;
+        text-align: left;
+    }
+    .bowenDescContainer2 span{
+        font-size: 10px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .bowenContainer2{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .bowenContainer{
+        height: 300px;
+    }
+    .bowenContainer2{
+        height: 450px;
+    }
+
+    .bowenDescContainer{
+        width: 100%;
+    }
+    .bowenDescContainer2{
+        width: 100%;
+    }
+
+    .bowenImgContainer{
+        display: none;
+    }
+    .bowenImgContainer2{
+        display:none;
+    }
+}
+
+#youtubeContainer{
+    margin: 0 auto 50px auto;
+    width: 500px;
+}
+
+#youtubeContainer p{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
 .youtube-player{
