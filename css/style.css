@@ -306,12 +306,17 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 /* BOWEN */
+#bowen{
+    background: linear-gradient(0deg, var(--hover-color) 0%, var(--text-color) 100%);
+    box-shadow: var(--box-shadow-color) 2px 2px 30px;
+    padding: 0px 0 40px 0;
+}
+
 .bowenContainer{
-    color: var(--text-color);
-    height: 100%;
+    color: white;
     display: flex;
-    background-color: var(--invert-bg);
     overflow: hidden;
+    background-color: var(--invert-bg);
 }
   
 .bowenImgContainer{
@@ -338,17 +343,14 @@ body a, body a:hover, body a:active, body a:visited{
 }
   
 .bowenContainer2{
-    color: var(--text-color);
-    height: 500px;
-    width: 100%;
+    color: white;
     display: flex;
-    background-color: var(--invert-bg);
+    overflow: hidden;
 }
 
 .bowenImgContainer2{
     width: 30%;
-    float: right;
-    height: 100%;
+    box-sizing: border-box;
 }
 
 .bowenDescContainer2{
@@ -364,12 +366,6 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 @media screen and (max-width: 600px){
-    .bowenContainer{
-        height: 450px;
-    }
-    .bowenContainer2{
-        height: 600px;
-    }
     .bowenDescContainer span, .bowenDescContainer{
         font-size: 12px;
         text-align: left;
@@ -388,13 +384,6 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 @media screen and (max-width: 450px){
-    .bowenContainer{
-        height: 600px;
-    }
-    .bowenContainer2{
-        height: 750px;
-    }
-
     .bowenDescContainer{
         font-size: 18px;
         width: 100%;
@@ -419,33 +408,10 @@ body a, body a:hover, body a:active, body a:visited{
     }
 }
 
-@media screen and (max-width: 350px){
-    .bowenContainer{
-        height: 750px;
-    }
-    .bowenContainer2{
-        height: 850px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .bowenContainer{
-        height: 800px;
-    }
-    .bowenContainer2{
-        height: 950px;
-    }
-}
-
+/* YOUTUBE */
 #youtubeContainer{
-    margin: 0 auto 50px auto;
+    margin: 40px auto 30px auto;
     width: 80%;
-}
-
-@media screen and (max-width:600) {
-    #youtubeContainer{
-        width: 80%;
-    }
 }
 
 #youtubeContainer p{
@@ -460,6 +426,7 @@ body a, body a:hover, body a:active, body a:visited{
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    margin: 5px;
     background: var(--invert-bg);
     margin: 5px;
 }
@@ -505,15 +472,7 @@ body a, body a:hover, body a:active, body a:visited{
     cursor: pointer;
 }
 
-/* BOWEN */
-#bowen{
-    background: linear-gradient(0deg, var(--hover-color) 0%, var(--text-color) 100%);
-    box-shadow: var(--box-shadow-color) 2px 2px 30px;
-    padding: 50px 0 50px 0;
-}
-
-/*TESTIMONIAL*/
-
+/*TESTIMONIALS*/
 #testimonials{
     background-color: var(--invert-bg);
     margin: auto;
