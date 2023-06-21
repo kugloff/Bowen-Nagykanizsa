@@ -308,7 +308,6 @@ body a, body a:hover, body a:active, body a:visited{
 /* BOWEN */
 .bowenContainer{
     color: var(--text-color);
-    width: 100vw;
     height: 100%;
     display: flex;
     background-color: var(--invert-bg);
