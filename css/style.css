@@ -312,11 +312,18 @@ body a, body a:hover, body a:active, body a:visited{
     padding: 0px 0 40px 0;
 }
 
+#bowen hr{
+    max-width: 100%;
+    border: none;
+    margin: 0 auto 10px auto;
+    background-color: white;
+    height: 3px;
+}
+
 .bowenContainer{
     color: white;
     display: flex;
     overflow: hidden;
-    background-color: var(--invert-bg);
 }
   
 .bowenImgContainer{
@@ -409,11 +416,6 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 /* YOUTUBE */
-#youtubeContainer{
-    margin: 40px auto 30px auto;
-    width: 80%;
-}
-
 #youtubeContainer p{
     text-transform: uppercase;
     text-align: center;
@@ -427,7 +429,6 @@ body a, body a:hover, body a:active, body a:visited{
     overflow: hidden;
     max-width: 100%;
     margin: 5px;
-    background: var(--invert-bg);
     margin: 5px;
 }
 
