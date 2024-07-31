@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 /*test comment*/
 *{
     margin: 0;
@@ -7,24 +7,25 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     text-decoration: none;
-    font-family:'Quicksand', sans-serif;
+    font-family: "Spectral", serif;
     cursor: default;
 }
 
 :root{
-    --main-bg-cover: rgba(198, 87, 170, 0.3);
-    --box-shadow-color: rgba(198, 87, 170, 0.5);
+    --main-bg-cover: #fff0e1;
+    --box-shadow-color: #f599a6;
     --invert-bg: rgba(0, 0, 0, 0.05);
-    --hover-color: rgb(227, 157, 206);
-    --text-color: rgb(179, 135, 167);
+    --hover-color: #ffbab3;
+    --text-color: #f599a6;
     --hover: rgba(255, 255, 255, 0.8);
-    --hr-color: rgba(198,87,170,1)
+    --hr-color: #ffbab3;
 }
 
 a, h1, h2, h3, h4{
     text-decoration: none;
     margin: 0;
     padding: 0;
+    font-weight: 800;
 }
 
 .pointer{
@@ -288,7 +289,7 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 #aboutMe p{
-    font-weight: 200;
+    font-weight: 400;
     margin-top: 40px;
     color: var(--text-color);
     font-size: 18px;
@@ -324,6 +325,7 @@ body a, body a:hover, body a:active, body a:visited{
     color: white;
     display: flex;
     overflow: hidden;
+    font-weight: 600;
 }
   
 .bowenImgContainer{
@@ -528,16 +530,15 @@ body a, body a:hover, body a:active, body a:visited{
 
 #testimonials h3{
     text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 26px;
     margin-bottom: 10px;
 }
 
 .clients p{
-    font-weight: 200;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -611,16 +612,16 @@ body a, body a:hover, body a:active, body a:visited{
 #prices h2{
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.02em;
     color: white;
-    font-weight: 200;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 26px;
 }
 
 #prices hr{
     max-width: 900px;
     border: none;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 6px auto;
     background-color: white;
     height: 3px;
 }
@@ -634,8 +635,8 @@ body a, body a:hover, body a:active, body a:visited{
 
 #services td{
     height: 30px;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 #services tr:nth-child(odd){
@@ -721,11 +722,11 @@ body a, body a:hover, body a:active, body a:visited{
 
 #get_in_touch h2{
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.04em;
     color: var(--text-color);
-    font-weight: 200;
+    font-weight: 600;
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 #contact_card{
@@ -762,7 +763,8 @@ body a, body a:hover, body a:active, body a:visited{
 }
 
 #contact_card p{
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 400;
     margin: 5px 0;
     letter-spacing: 0.1em;
 }
